@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+     <!-- Navbar -->
+     <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="exoplanet-info.html">🌍 Exoplanets Info</a></li>
+            <li><a href="games.html">🎮 Games</a></li>
+        </ul>
+    </nav>
+    <div class="starry-background">
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>  
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>   
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>  
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>   
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>
+        <div class="star"></div>        <div class="star"></div>  
+        
+    </div>
+    
+        <!-- Animated Text -->
+        <div class="animated-text">Let's Learn about Exoplanets</div>
+
+    <aside class="facts-container">
+        <h2>Exoplanet Facts</h2>
+        <p id="exoplanet-fact">Select a planet to see its info!</p>
+    </aside>
+
+    <div class="zoom-buttons">
+        <button id="zoom-in">🔍</button>
+        <button id="zoom-out">🔎</button>
+    </div>
+    </div>
+
+    <div id="exoplanet-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="exoplanet-name"></h2>
+            <p id="exoplanet-description"></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
